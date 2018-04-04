@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700');
-
 /* Defaults */
 html, body, #root, .App {
   height: 100%;
@@ -115,12 +113,12 @@ body {
 
 #header .logo {
   display: block;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 #header .logo a {
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300;
   display: block;
 }
@@ -128,6 +126,21 @@ body {
 #header .logo a:hover {
   text-decoration: none;
   color: rgb(147, 106, 195);
+}
+
+.mobile {
+  text-align: right;
+}
+
+.mobile button.menu-icon {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.mobile button.menu-icon i  {
+  font-size: 24px;
+  color: #fff;
 }
 
 #header ul.menu {
@@ -176,7 +189,7 @@ body {
   color: rgb(147, 106, 195);
   padding: 0 15px;
   font-weight: 300;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .me-title {
@@ -187,10 +200,18 @@ body {
   font-size: 21px;
 }
 .me-blockquote {
-  text-align: center;
-  color: #fff;
   margin-top: 15px;
+  border-left: 3px solid #dedede;
+   font-weight: 300;
+   font-style: italic;
+   text-align: center;
+}
+
+.me-blockquote p {
+  color: #dedede;
   font-size: 14px;
-  font-weight: 300;
-  font-style: italic;
+}
+.me-blockquote footer {
+  color: #dedede;
+  font-size: 12px; 
 }

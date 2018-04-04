@@ -1,26 +1,23 @@
 import React  from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+
+import Menu from './Menu';
 
 function Header (props) {
   return (
   <header id="header">
-    <Grid>
-      <Row className="show-grid">
-        <Col xs={12} md={4}>
-          {/* <code>&lt;{'Col xs={12} md={8}'} /&gt;</code> */}
+    <div className="container">
+      <div className="row show-grid">
+        <div className="col-xs-8 col-sm-4 col-md-4">
           <span className="logo"><a href="#">&#123; @condini-mastheus &#125;</a></span>
-        </Col>
-          <Col xsHidden sm={12} md={8}>
-          {/* <code>&lt;{'Col xs={6} md={4}'} /&gt;</code> */}
-          <ul className="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Inspirations</a></li>
-          </ul>
-        </Col>
-      </Row>
-    </Grid>
+        </div>
+        <div className="col-md-8 col-sm-8 hidden-xs">
+          <Menu />
+        </div>
+        <div className="col-xs-4 visible-xs mobile">
+            <button className="menu-icon"><i className="fa fa-bars" /></button> 
+        </div>
+      </div>
+    </div>
   </header>
   );
 }

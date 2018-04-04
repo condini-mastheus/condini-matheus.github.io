@@ -24,7 +24,8 @@ function Home (props) {
           <div className="tbl-cell v-top">
             <h1 className="me-title text-center">MATHEUS CONDINI</h1>
             <blockquote className="me-blockquote">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu interdum sem"
+              <p>Be water, my friend.</p>
+              <footer><cite title="Bruce Lee">Bruce Lee</cite></footer>
               </blockquote>
           </div>
           <div className="tbl-cell v-top"></div>
