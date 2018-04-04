@@ -4,6 +4,7 @@ import './styles/responsive.css';
 
 import Header from './components/Header';
 import Home from './components/Home';
+import Inspirations from './components/Inspirations';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Home />
-        <Home />
+        <Inspirations />
       </div>
     );
   }

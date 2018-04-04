@@ -11,6 +11,7 @@ body {
   background: #2a2a2a;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: #fff;
 }
 
 .tbl {
@@ -31,6 +32,14 @@ body {
 }
 .v-bottom {
   vertical-align: bottom;
+}
+.section-block {
+    padding: 20px 0;
+    background: #2a2a2a;
+}
+.section-block h1 {
+  font-size: 24px;
+  text-align: center;
 }
 
 /* Hexagon */
@@ -168,7 +177,7 @@ body {
 }
 
 /* Home */
-#home {
+#home, #inspirations {
   height: 100%;
   background: linear-gradient(215deg, rgb(19, 19, 19) 0%, rgb(76, 75, 75) 70%, rgb(103, 103, 103) 100%);
 }
@@ -201,10 +210,11 @@ body {
 }
 .me-blockquote {
   margin-top: 15px;
-  border-left: 3px solid #dedede;
-   font-weight: 300;
-   font-style: italic;
-   text-align: center;
+  border-left: none;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  line-height: 3px;
 }
 
 .me-blockquote p {
@@ -214,4 +224,50 @@ body {
 .me-blockquote footer {
   color: #dedede;
   font-size: 12px; 
+}
+
+/* Inspirations */
+
+#inspirations {
+ background: #2a2a2a;
+ position: relative;
+}
+
+.people {
+  position: relative;
+  height: 100%;
+}
+.inspiration {
+    padding: 5px 15px 40px 15px;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.person {
+  width: 100px;
+  display: block;
+  text-align: center;
+  line-height: 14px;
+  position: absolute;
+  background: #2a2a2a;
+}
+.person .thumb {
+  margin: 0 auto;
+  max-height: 100px;
+}
+.person strong {
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.person small {
+  display: block;
+  margin-top: 5px;
+  line-height: 18px;
+  font-weight: 300;
 }

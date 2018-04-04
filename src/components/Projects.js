@@ -1,6 +1,6 @@
 import React  from 'react';
 
-function Home (props) {
+function Projects (props) {
   return (
     <section id="home">
       <div className="tbl">
@@ -38,4 +38,4 @@ function Home (props) {
   );
 }
 
-export default Home;
+export default Projects;

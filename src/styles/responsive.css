@@ -1,4 +1,13 @@
 @media(min-width:768px) {
+    .section-block {
+        padding: 40px 0;
+    }
+    .section-block h1 {
+        font-size: 36px;
+        text-align: left;
+        margin-top: 0;
+    }
+
     .hexagon {
         width: 250px;
         height: 144.34px;
