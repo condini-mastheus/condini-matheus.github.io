@@ -1,5 +1,4 @@
 import React  from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
 
 function Home (props) {
   return (
@@ -25,7 +24,7 @@ function Home (props) {
           <div className="tbl-cell v-top">
             <h1 className="me-title text-center">MATHEUS CONDINI</h1>
             <blockquote className="me-blockquote">
-              "Show Rogerinho!"
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu interdum sem"
               </blockquote>
           </div>
           <div className="tbl-cell v-top"></div>
