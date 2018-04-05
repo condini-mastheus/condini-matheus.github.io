@@ -14,6 +14,25 @@ body {
   color: #fff;
 }
 
+/* // area de selecao ---- */
+::-moz-selection {
+	color: #fff;
+	background:  #2a2a2a;
+}
+
+::selection {
+	color: #fff;
+	background:  #2a2a2a;
+}
+
+/* // barra de rolagem ------ */
+body::-webkit-scrollbar {
+	width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #2a2a2a;
+}
+
 .tbl {
   display: table;
 }
@@ -177,7 +196,7 @@ body {
 }
 
 /* Home */
-#home, #inspirations {
+#home, #inspirations, #tecnologies, #projects {
   height: 100%;
   background: linear-gradient(215deg, rgb(19, 19, 19) 0%, rgb(76, 75, 75) 70%, rgb(103, 103, 103) 100%);
 }
@@ -252,7 +271,6 @@ body {
   text-align: center;
   line-height: 14px;
   position: absolute;
-  background: #2a2a2a;
 }
 .person .thumb {
   margin: 0 auto;
@@ -270,4 +288,41 @@ body {
   margin-top: 5px;
   line-height: 18px;
   font-weight: 300;
+}
+
+/* Projects */
+#projects {
+  background: #3e3e3e;
+  /* background: linear-gradient(215deg, rgb(70, 25, 251) 0%, rgb(156, 81, 245) 70%, rgb(184, 142, 231) 100%); */
+}
+
+/* Tecnologies */
+#tecnologies {
+  background: #565656;
+  /* background: linear-gradient(215deg,  0%, rgb(76, 75, 75) 70%,  100%); */
+}
+
+.person {
+  -webkit-animation: balance 2s ease-in-out; /* Safari 4+ */
+  -moz-animation:    balance 2s ease-in-out; /* Fx 5+ */
+  -o-animation:      balance 2s ease-in-out; /* Opera 12+ */
+  animation:         balance 2s ease-in-out; /* IE 10+, Fx 29+ */
+}
+
+@keyframes balance {
+  from { 
+    top: 50%; 
+    left: 50%; 
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transition: all .3s ease-in-out;
 }

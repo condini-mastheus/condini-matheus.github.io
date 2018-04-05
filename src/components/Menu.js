@@ -3,10 +3,10 @@ import React  from 'react';
 function Menu (props) {
   return (
     <ul className="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Technologies</a></li>
-      <li><a href="#">Inspirations</a></li>
+      <li><a href="#a">Home</a></li>
+      <li><a href="#d">Inspirations</a></li>
+      <li><a href="#b">Projects</a></li>
+      <li><a href="#c">Technologies</a></li>
     </ul>
   );
 }

@@ -69,7 +69,8 @@
             "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-1/c1.0.958.958/29683373_172228560164487_2044229238741047648_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeHV2Ehu6-p5KGzB4elCi2Pu8srScBO8Ggz4l_ELEeUfiGCybTu5-wlQjaew5HecCtvcX4ds5HEGSPSi1rhFBCkbMkp3pJOECRL2orHZpJlynw&oh=01e626ab48bfcc8a26bf9d234b82eb0a&oe=5B2FF8DB",
             "style": {
                 "top": "13%",
-                "right": "0"
+                "left": "100%",
+                "marginLeft": "-100px"
             }
         },
         {
@@ -105,7 +106,8 @@
             "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/20663708_10209708775225301_996445548965576301_n.jpg?_nc_cat=0&oh=e178fe5ebe99e2ecaefda4435e87bda8&oe=5B6D5C0B",
             "style": {
                 "top": "65%",
-                "right": "0"
+                "left": "100%",
+                "marginLeft": "-100px"
             }
         },
         {
@@ -113,8 +115,8 @@
             "relationship": "Teacher",
             "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/18765810_10210677439026311_5663660895193200940_n.jpg?_nc_cat=0&oh=fc25c88f64084319878cd14de0eefdc9&oe=5B647ED7",
             "style": {
-                "top": "30%",
-                "left": "53%"
+                "top": "25%",
+                "left": "60%"
             }
         },
         {
@@ -150,7 +152,8 @@
             "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/26195848_1576388039118315_3512693915235485160_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEltd5oKVvjtgGQa8lv6oOW4fL0hYc-rot9omFyeVhevNuHoTsY_tj4Irlyxy-qbwdiCZV7PECxTk4KULZXZfSVCcDg3HFDvcB1cO_8m06Arw&oh=57c28d1d45401f36982898e2cd54ca7c&oe=5B72A3DB",
             "style": {
                 "top": "38%",
-                "right": "0"
+                "left": "100%",
+                "marginLeft": "-100px"
             }
         },
         {
@@ -170,7 +173,8 @@
             "style": {
                 "top": "50%",
                 "left": "50%",
-                "margin-top": "-100px"
+                "marginLeft": "-50px",
+                "marginTop": "-50px"
             }
         }
     ]
