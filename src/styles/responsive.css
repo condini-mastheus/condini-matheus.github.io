@@ -73,12 +73,50 @@
     #header .logo a {
         font-size: 20px;
     }
+    .inspiration {
+        padding: 5px 15px 40px 15px;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .person {
+        width: 80px;
+        top: 0;
+        left: 0;
+    }
+    .person .thumb {
+        width: 80px;
+        height: 80px;
+    }
+    .person {
+        -webkit-animation: balance 2s ease-in-out;
+        /* Safari 4+ */
+        -moz-animation: balance 2s ease-in-out;
+        /* Fx 5+ */
+        -o-animation: balance 2s ease-in-out;
+        /* Opera 12+ */
+        animation: balance 2s ease-in-out;
+        /* IE 10+, Fx 29+ */
+    }
+    .person strong {
+        font-size: 14px;
+    }
+    .person small {
+        font-size: 11px;
+    }
 }
 
 @media(min-width:992px) {
-
+    .person {
+        width: 100px;
+    }
+    .person .thumb {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media(min-width:1200px) {
-
 }

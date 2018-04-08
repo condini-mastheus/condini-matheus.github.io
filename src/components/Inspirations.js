@@ -3,31 +3,36 @@ import { people } from '../data/people.json';
 import { lines } from '../data/lines.json';
 
 function renderPeople (person, key) {
-
   
   return (
-    <div className={`person ${person.me !== undefined ? 'to' : 'from'}`} style={person.style} key={key}>
-      <div className="thumb">
-        <img src={person.photo} alt="" className="img-responsive img-circle" />
+    <div className="person" style={person.style} key={key}>
+      <div className={`thumb  ${person.class}`}>
       </div>
-      {/* <strong className="name">
-            {person.name}
-            </strong>
-            <small className="relationship">
-            {person.relationship}
-          </small> */}
+      <div className="mask">
+            <div className="info tbl">
+              <div className="tbl-cell">
+                <strong className="name">
+                  {person.name}
+                </strong>
+                <small className="relationship">
+                  {person.relationship}
+                </small>
+              </div>
+            </div>
+        </div>
     </div>
   )
 }
 
 function renderLines (line, key) {
 
+
+  const { x1, y1, x2, y2 } = line.ref
+
   return (
-    <div className="line" style={line.style} key={key}>
-      <svg width="100%" height="100%">
-        <line x1="0" y1="0" x2="100%" y2="100%" stroke="rgb(147, 106, 195)" />
-      </svg>
-    </div>
+    <svg refTo={line.name}>
+        <line x1={x1} y1={y1} x2={x2} y2={y2} stroke="rgb(147, 106, 195)" strokeWidth="2" />
+    </svg>
   )
 }
 
@@ -44,11 +49,13 @@ function Inspirations (props) {
       </div>
       <div className="container inspiration">
         <div className="people">
-          {
-            lines.map((line, index) => {
-              return renderLines(line, index);
-            })
-          }
+          <div className="lines hidden-xs">
+            {
+              lines.map((line, index) => {
+                return renderLines(line, index);
+              })
+            }
+          </div>
 
           {
             people.map((person, index) => {

@@ -3,25 +3,25 @@
         {
             "name": "Daniel Zini",
             "relationship": "Co-Worker",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/1907558_808732362539005_890532001673436628_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeH7IM4noRT_Y0jFTGdYzZp1xy28mj-VRf5lC8A9TZmcwd_JJ3io2Qnk9yOZneK54i_lRZW9Frz7E2xbfXkGPdioOqZXWDRMDzrS2vLClAEKhg&oh=4d4166231eb4c80ad9d583a1876c3d97&oe=5B31A5C7",
+            "class": "daniel-zini",
             "style": {
                 "top": "0",
-                "left": "0"
+                "left": "10%"
             }
         },
         {
             "name": "Clara Brunetti",
             "relationship": "My love <3",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/25660194_1580687132015577_1228823608321827077_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeFuZevyzEN967qqb1OouhdfNjMvq1Zi6g-bJTPrtn_dKu6cYX9NuKoEQd6ZJPHJe9wJgwRCLDkQRC51ycceVFbHmJijMdYeyBg8m6CZL4nw0Q&oh=b00fa69b80017450f61aa2ac55fcf5f2&oe=5B33DF52",
+            "class": "clara-brunetti",
             "style": {
-                "top": "60%",
+                "top": "75%",
                 "left": "50%"
             }
         },
         {
             "name": "Bruno Adamo",
             "relationship": "Co-Worker",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/27858224_1590979707652763_7973763478889935340_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEQalPsCq0klqiePC4pW_5rRzMPuwGa-SKZhsdiCKLwtcP0BncN6M5eBSU63yEi3-J5rfbJH4GoVInfbXe71IWa3spdCJfyXtfO5gkh6hAooA&oh=7d6158113103f9c2229d80a4c76dc5b2&oe=5B39E13F",
+            "class": "bruno-adamo",
             "style": {
                 "top": "2%",
                 "left": "28%"
@@ -30,7 +30,7 @@
         {
             "name": "João Gabriel",
             "relationship": "Co-Worker",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/23031652_1498328470203352_6119034715207199774_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeGo8YKoDwttRpp3cOo8KlWCs1fG-VsdXJz--mKfxuGcOQi45kGiWJfmAgafXz089GhYJ9YiZdDIpmtrguNUYA9llRhvl2B2GgibyjMlNj2fHQ&oh=9c82f698b812f9d42cc8e6e345ea5472&oe=5B648AA5",
+            "class": "joao-gabriel",
             "style": {
                 "top": "15%",
                 "left": "38%"
@@ -39,25 +39,25 @@
         {
             "name": "Carolina Carretto",
             "relationship": "Co-Worker",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-1/21558945_1710787882296054_519828045544909023_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEhlpqN1CdwnM86cUq5SISBuQWIRkSdL7oPlbfITXG9-6nukn0qkY-v1BN4pyZjWWGinbjug-X030_eBBXnGB1jlcau8cEMwdip64pdX9bGlQ&oh=df3d075fffc9de2480076d84a3d269ea&oe=5B6C75A7",
+            "class": "carolina-carretto",
             "style": {
                 "top": "4%",
-                "left": "55%"
+                "left": "47%"
             }
         },
         {
             "name": "Tulio Faria",
             "relationship": "DevPleno",
-            "photo": "https://media.licdn.com/dms/image/C4D03AQEpTh5qch4WWw/profile-displayphoto-shrink_200_200/0?e=1528041600&v=alpha&t=KrO_hAbvq5-INvfnKXxw6pujlmRcb8woYox-zRqK4S0",
+            "class": "tulio-faria",
             "style": {
-                "top": "65%",
-                "left": "70%"
+                "top": "80%",
+                "left": "65%"
             }
         },
         {
             "name": "Ana Vegro",
             "relationship": "Co-Worker",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/26165291_10215107754869100_1227701723501367264_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeGg6u5e15fCRdWmQHxHksoctW_w79mkOAPVCVVAkvmJKHneK8GpySlL0QUu4GmgswWVg2Lyz4Ao6821EKLIzxI1HWlxKDeUc8yELmM1btCjPw&oh=eaa8c58437169d731139dd6698f43848&oe=5B2EBCD3",
+            "class": "ana-vegro",
             "style": {
                 "top": "2%",
                 "left": "78%"
@@ -66,7 +66,7 @@
         {
             "name": "André Vastella",
             "relationship": "Co-Worker",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-1/c1.0.958.958/29683373_172228560164487_2044229238741047648_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeHV2Ehu6-p5KGzB4elCi2Pu8srScBO8Ggz4l_ELEeUfiGCybTu5-wlQjaew5HecCtvcX4ds5HEGSPSi1rhFBCkbMkp3pJOECRL2orHZpJlynw&oh=01e626ab48bfcc8a26bf9d234b82eb0a&oe=5B2FF8DB",
+            "class": "andre-vastella",
             "style": {
                 "top": "13%",
                 "left": "100%",
@@ -76,7 +76,7 @@
         {
             "name": "Diego Fernandes",
             "relationship": "Rocketseat",
-            "photo": "https://cdn-images-1.medium.com/fit/c/100/100/1*aa4ASm3ZjRV_5Yi81ZLs-g@2x.jpeg",
+            "class": "diego-fernandes",
             "style": {
                 "top": "20%",
                 "left": "5%"
@@ -85,7 +85,7 @@
         {
             "name": "Eric Thomas",
             "relationship": "Motivational Speaker",
-            "photo": "http://speakerbookingagency.com/wp-content/uploads/bb-plugin/cache/Eric-Thomas-300x300-square.jpg",
+            "class": "eric-thomas",
             "style": {
                 "top": "30%",
                 "left": "18%"
@@ -94,44 +94,43 @@
         {
             "name": "Raony Condini",
             "relationship": "Brother",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/20638832_1100894336711209_7266354305211883371_n.jpg?_nc_cat=0&oh=d557a707a1255c7ac5352c2d690a20b7&oe=5B61BE26",
+            "class": "raony-condini",
             "style": {
-                "top": "35%",
+                "top": "80%",
                 "left": "35%"
             }
         },
         {
             "name": "Renato Nato",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/20663708_10209708775225301_996445548965576301_n.jpg?_nc_cat=0&oh=e178fe5ebe99e2ecaefda4435e87bda8&oe=5B6D5C0B",
+            "class": "renato-nato",
             "style": {
-                "top": "65%",
-                "left": "100%",
-                "marginLeft": "-100px"
+                "top": "70%",
+                "left": "75%"
             }
         },
         {
             "name": "Sérgio Furgeri",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/18765810_10210677439026311_5663660895193200940_n.jpg?_nc_cat=0&oh=fc25c88f64084319878cd14de0eefdc9&oe=5B647ED7",
+            "class": "sergio-furgeri",
             "style": {
-                "top": "25%",
+                "top": "20%",
                 "left": "60%"
             }
         },
         {
             "name": "Michel Munhoz",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/24067834_983392698465631_7009942792567025967_n.jpg?_nc_cat=0&oh=e52b027742ae34c856340c0ab6ddd193&oe=5B2C649E",
+            "class": "michel-munhoz",
             "style": {
-                "top": "60%",
+                "top": "75%",
                 "left": "20%"
             }
         },
         {
             "name": "Lilian Simão",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/1013921_675229595836071_981852477_n.jpg?_nc_cat=0&oh=6fc5c3d13c8e884bfa5463da6f971840&oe=5B681C68",
+            "class": "lilian-simao",
             "style": {
                 "top": "70%",
                 "left": "1%"
@@ -140,7 +139,7 @@
         {
             "name": "André Guimarães",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/246562_467870303229006_1950670946_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeFsq4s4IslgxxfXjhac5oqpMREI2HsTW0ePSmu25S0qj69Ag55MLOC8ym1PZbNdlSYdJw4rAUW8-gImC9tNiST1Y-4QUnscZj2Uz0U_WO2ksw&oh=e401be6fd8342ff1f63dc8319b0e06ac&oe=5B2907F6",
+            "class": "andre-guimaraes",
             "style": {
                 "top": "45%",
                 "left": "3%"
@@ -149,9 +148,9 @@
         {
             "name": "Fernando Moledo",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/26195848_1576388039118315_3512693915235485160_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEltd5oKVvjtgGQa8lv6oOW4fL0hYc-rot9omFyeVhevNuHoTsY_tj4Irlyxy-qbwdiCZV7PECxTk4KULZXZfSVCcDg3HFDvcB1cO_8m06Arw&oh=57c28d1d45401f36982898e2cd54ca7c&oe=5B72A3DB",
+            "class": "fernando-moledo",
             "style": {
-                "top": "38%",
+                "top": "55%",
                 "left": "100%",
                 "marginLeft": "-100px"
             }
@@ -159,7 +158,7 @@
         {
             "name": "Adileine Ferraz",
             "relationship": "Teacher",
-            "photo": "https://scontent.fcpq4-1.fna.fbcdn.net/v/t31.0-8/23120267_1863462340335870_535171645678337012_o.jpg?_nc_cat=0&_nc_eui2=v1%3AAeE1YR-mzBi1_19xF382x0hXqNRqfbrbV0mHchrBm3SCgdsvZMhjKwu9sw3Zj1Q4aN7NMOSggIVT1mpw_ehawgW7nGOIHDL-CpxkYOvwqGAZmQ&oh=b50b8aa0b8099d3342fccacd3b5cffa1&oe=5B62D594",
+            "class": "adileine-ferraz",
             "style": {
                 "top": "40%",
                 "left": "70%"
@@ -168,8 +167,7 @@
         {
             "name": "Me",
             "relationship": "Eternal Apprentice",
-            "photo": "/static/media/me.0828e6cc.jpg",
-            "me": true,
+            "class": "me",
             "style": {
                 "top": "50%",
                 "left": "50%",

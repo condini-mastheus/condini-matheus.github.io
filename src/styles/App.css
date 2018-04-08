@@ -256,38 +256,132 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   height: 100%;
 }
+
 .inspiration {
     padding: 5px 15px 40px 15px;
-    position: absolute;
-    top: 110px;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
 }
 
 .person {
-  width: 100px;
-  display: block;
+  position: relative;
+  width: 33.3%;
+  display: inline-block;
   text-align: center;
   line-height: 14px;
-  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
 }
+
 .person .thumb {
+  width: 60px;
+  height: 60px;
+  background: #000 center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
   margin: 0 auto;
-  max-height: 100px;
+}
+/* Bug Fix */
+.person .thumb.daniel-zini {
+  background-image: url('../images/inspirations/daniel_zini.jpg');
+}
+.person .thumb.clara-brunetti {
+  background-image: url('../images/inspirations/clara_brunetti.jpg');
+}
+.person .thumb.bruno-adamo {
+  background-image: url('../images/inspirations/bruno_adamo.jpg');
+}
+.person .thumb.joao-gabriel {
+  background-image: url('../images/inspirations/joao_gabriel.jpg');
+}
+.person .thumb.carolina-carretto {
+  background-image: url('../images/inspirations/carol_carreto.jpg');
+}
+.person .thumb.tulio-faria {
+  background-image: url('../images/inspirations/tulio_faria.jpg');
+}
+.person .thumb.ana-vegro {
+  background-image: url('../images/inspirations/ana_vegro.jpg');
+}
+.person .thumb.andre-vastella {
+  background-image: url('../images/inspirations/andre_vegro.jpg');
+}
+.person .thumb.diego-fernandes {
+  background-image: url('../images/inspirations/diego_fernandes.jpg');
+}
+.person .thumb.eric-thomas {
+  background-image: url('../images/inspirations/eric_thomas.jpg');
+}
+.person .thumb.raony-condini {
+  background-image: url('../images/inspirations/raony_condini.jpg');
+}
+.person .thumb.renato-nato {
+  background-image: url('../images/inspirations/renato_nato.jpg');
+}
+.person .thumb.sergio-furgeri {
+  background-image: url('../images/inspirations/sergio_furgeri.jpg');
+}
+.person .thumb.michel-munhoz {
+  background-image: url('../images/inspirations/michel_munhoz.jpg');
+}
+.person .thumb.lilian-simao {
+  background-image: url('../images/inspirations/lilian_simao.jpg');
+}
+.person .thumb.andre-guimaraes {
+  background-image: url('../images/inspirations/andre_guimaraes.jpg');
+}
+.person .thumb.fernando-moledo {
+  background-image: url('../images/inspirations/fernando_moledo.jpg');
+}
+.person .thumb.adileine-ferraz {
+  background-image: url('../images/inspirations/adileine_ferraz.jpg');
+}
+.person .thumb.me {
+  background-image: url('../images/me.jpg');
+}
+
+.person .mask {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .7);
+  transition: all .3s ease-in-out;
+  border-radius: 50%;
+  width: 60px;
+  margin: 0 auto;
+}
+.person .mask .info {
+  height: 100%;
+  width: 100%;
+}
+.person:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+.person:hover .mask {
+ opacity: 1;
 }
 .person strong {
   display: block;
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 0;
   font-weight: 700;
-  line-height: 18px;
+  color:rgb(239, 239, 239);
+  cursor: default;
 }
 .person small {
   display: block;
   margin-top: 5px;
-  line-height: 18px;
+  font-size: 10px;
+  line-height: 12px;
   font-weight: 300;
+  color:rgb(171, 171, 171);
+  cursor: default;
 }
 
 /* Projects */
@@ -302,13 +396,6 @@ body::-webkit-scrollbar-thumb {
   /* background: linear-gradient(215deg,  0%, rgb(76, 75, 75) 70%,  100%); */
 }
 
-.person {
-  -webkit-animation: balance 2s ease-in-out; /* Safari 4+ */
-  -moz-animation:    balance 2s ease-in-out; /* Fx 5+ */
-  -o-animation:      balance 2s ease-in-out; /* Opera 12+ */
-  animation:         balance 2s ease-in-out; /* IE 10+, Fx 29+ */
-}
-
 @keyframes balance {
   from { 
     top: 50%; 
@@ -318,11 +405,14 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.line {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    transition: all .3s ease-in-out;
+.lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+.lines svg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
